@@ -6,7 +6,7 @@
 ## Sobre mi
 
 - ⭐ Comenzando con Github⭐ 
-- 🤖 Me gusta la AI
+- 🤖 Me gusta la IA
 - 💻 Desarrollo diferentes proyectos para la universidad
 - 📘 Me gusta leer
 - 🐈 Amo a los gatos
