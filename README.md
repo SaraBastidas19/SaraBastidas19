@@ -9,5 +9,5 @@
 - 🤖 Me gusta la IA
 - 💻 Desarrollo diferentes proyectos para la universidad
 - 📘 Me gusta leer
-- 🐈 Amo a los gatos
+- 🐈 <3
 <br>
