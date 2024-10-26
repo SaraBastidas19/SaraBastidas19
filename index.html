@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Sara</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MÍ</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">RESUMEN</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Sara Bastidas</h1>
+            <h2>Ingeniera de Sistemas e informática</h2>
+            <div class="redes">
+                
+                <a href="https://github.com/SaraBastidas19"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sarabastidasburgos/"><i class="fa-brands fa-linkedin-in"></i></a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Sara Bastidas.</span> Soy una persona creativa, apasionada por la música y los animales,
+                siempre abierta a conocer nuevas personas, tanto dentro como fuera del ámbito profesional. Tengo un gran
+                interés por la programación en frontend y por la inteligencia artificial, áreas en las que busco
+                aprender continuamente. Disfruto colaborar en equipo, ya que creo firmemente que aprender de los demás
+                es clave para el crecimiento personal y profesional. Me encanta participar en diversas actividades que
+                me permiten ampliar mis horizontes y establecer nuevas conexiones en mi gremio. Siempre busco un
+                equilibrio entre creatividad, eficiencia y colaboración, trabajando con entusiasmo para lograr objetivos
+                compartidos y generar un impacto positivo.
+
+            </p>
+            <p> Actualmente me encuentro cursando los últimos semestres de mi carrera, donde me he enfocado
+                principalmente en aprender sobre desarrollo de frontend y el diseño de interacción, principalmente me
+                atrae poder construir y elaborar páginas de fácil acceso para todas las personas.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li><strong>Ocupación</strong>
+                            Estudiante de ingeniería de Sistemas</li>
+
+                        <li>
+                            <strong>Email</strong>
+                            sarabastidasburgos@gmail.com
+                        </li>
+
+                        <li>
+                            <strong>Dirección</strong>
+                            Medellín, Antioquia, Colombia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desarrolladora Front End </span>
+                        </li>
+                        <li><strong>Cargo</strong>
+                            <span>Diseñadora de interacción</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-basketball-ball"></i>
+                            <span>BALONCESTO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-music"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-users"></i>
+                            <span>FOROS Y EVENTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-paw"></i>
+                            <span>ANIMALES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book-open"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-hashtag"></i>
+                            <span>REDES SOCIALES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera-retro"></i>
+                            <span>FOTOS</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3> Habilidades Técnicas</h3>
+                    <div class="skill">
+                        <span>Prototipado y Wireframing</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML, CSS, JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Diseño Visual y UI</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Conocimiento de Sistemas de Diseño</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Versionado y Colaboración</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación Efectiva</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Colaboración en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Gestión del Tiempo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Diseño Centrado en el Usuario</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+
+                    <div class="item izq">
+                        <h4>Ingeniería de Sistemas e Informática</h4>
+                        <span class="casa">Universidad Pontificia Bolivariana</span>
+                        <span class="fecha">2021 - presente</span>
+                        <p>Durante la pandemia, tuve la oportunidad de adentrarme en el mundo de la programación, lo que
+                            me motivó a estudiar esta carrera. He aprendido mucho de mis maestros y compañeros, lo que
+                            me ha permitido descubrir mis intereses en un ámbito tan vasto como lo es la tecnología.
+                            Actualmente, estoy cautivada por el desarrollo frontend y las buenas prácticas de diseño,
+                            con el objetivo de crear proyectos que no solo sean útiles, sino que también logren cautivar
+                            a los clientes. Además, soy parte activa del semillero de música de la universidad y he sido
+                            monitora dentro de mi facultad, lo que me ha brindado valiosas experiencias de aprendizaje y
+                            colaboración.
+
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Inglés y Frances</h4>
+                        <span class="casa">LCN Idiomas</span>
+                        <span class="fecha">2024 - presente</span>
+                        <p>El inglés siempre me ha parecido un idioma fundamental, no solo para la vida, sino también en
+                            el ámbito de la programación. Durante el último año, he dedicado parte de mi tiempo libre a
+                            mejorar mi dominio del idioma, con el objetivo de abrir nuevas oportunidades. Además, me he
+                            sentido cautivada por el francés y estoy entusiasmada por aprender este nuevo idioma para
+                            poder conocer a nuevas personas.
+
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachiller académico</h4>
+                        <span class="casa">Liceo de la Universidad de Nariño</span>
+                        <span class="fecha">2017 - 2019</span>
+                        <p>Terminé mis estudios como bachiller en la ciudad de Pasto. Durante este período, descubrí
+                            algunas de mis pasiones que aún conservo. El baloncesto fue fundamental en mi vida; formé
+                            parte del equipo representativo del colegio y de varios clubes, lo que me permitió aprender
+                            sobre el trabajo en equipo y las relaciones interpersonales. También fui integrante del
+                            grupo base de música de mi institución, donde aprendí la importancia de la dedicación y el
+                            compromiso para alcanzar mis metas.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Mis Proyectos</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Selene for Women</span>
+                        <span class="fecha">2024 - presente </span>
+                        <p>"Selene for Women" es una aplicación diseñada para ayudar a las mujeres a llevar un
+                            registro
+                            de su ciclo menstrual, proporcionando información valiosa para su salud sexual. Es una
+                            aplicación responsive, construida con HTML, CSS y JavaScript, que se puede descargar en
+                            dispositivos móviles. Es completamente gratuita y no requiere conexión a internet, lo
+                            que la
+                            hace accesible para una mayor cantidad de personas.
+                            <a href="https://github.com/SaraBastidas19/Selene_am.git">Repositorio</a>
+                        <H1></H1>
+                        <a
+                            href="https://www.figma.com/design/LwpTIajLozuNPqlwHXWuPr/Untitled?node-id=0-1&t=RejJPq8CegVz3LQ6-1">Figma</a>
+
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Huellas de esperanza</span>
+                        <span class="fecha">2024</span>
+                        <p>Este proyecto consiste en la creación de un sitio web para facilitar donaciones destinadas a
+                            mejorar la vida de los habitantes de calle en Medellín. A través de la plataforma, buscamos
+                            sensibilizar a la comunidad y recaudar fondos para rehabilitación, alimentación, y atención
+                            médica, en colaboración con fundaciones locales. El sitio, desarrollado con HTML, CSS y
+                            JavaScript, es responsive y está diseñado para ofrecer una navegación óptima, ayudando a las
+                            fundaciones a ampliar su alcance y apoyar a más personas.
+                            <h1></h1>
+                            <a href="https://johnson1255.github.io/Pagina_Concientizadora/main.html">Semillas de
+                                cambio</a>
+                            <a href="https://github.com/Johnson1255/Pagina_Concientizadora">Repositorio</a>
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Aplicación para entidad deportiva</span>
+                        <span class="fecha">2024</span>
+                        <p>La aplicación deportiva que hemos desarrollado fue inicialmente diseñada para el Inder de
+                            Medellín, pero puede adaptarse a cualquier escuela deportiva. Utilizando HTML, CSS y
+                            JavaScript, esta herramienta facilita la toma de asistencia en clases y permite a los padres
+                            inscribir a sus hijos en diferentes cursos de manera eficiente.
+
+                            Con una interfaz amigable, nuestro objetivo es mejorar la comunicación entre padres,
+                            profesores y alumnos, promoviendo la participación activa de los jóvenes en actividades
+                            deportivas y contribuyendo a su desarrollo integral.
+                            <a
+                                href="https://github.com/SaraBastidas19/Proyecto-aplicado-en-TIC/tree/master">Repositorio</a>
+
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/imagenes/1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Figma</h3>
+                        <p>Selene</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/imagenes/2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Figma</h3>
+                        <p>Veterinaria</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/imagenes/3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Figma</h3>
+                        <p>Check List</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/imagenes/4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Figma</h3>
+                        <p>AppartApp</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/imagenes/5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Página Web</h3>
+                        <p>Semillas de Cambio</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/imagenes/6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Figma</h3>
+                        <p>IndeApp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <div class="col">
+                    <ul>
+                        <li>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/sarabastidasburgos/" target="_blank">LinkedIn</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:sarabastidasburgos@example.com">sarabastidasburgos@example.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://github.com/SaraBastidas19"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sarabastidasburgos/"><i class="fa-brands fa-linkedin-in"></i></a>
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
