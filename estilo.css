@@ -244,6 +244,21 @@ html {
 .sobremi button:hover .overlay {
     width: 100%;
 }
+.fila {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sobremi .fila {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
 
 /* SECCION S K I L L S */
 .skills {

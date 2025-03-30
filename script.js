@@ -44,3 +44,9 @@ window.onscroll = function() {
     efectoHabilidades();
 };
 
+document.getElementById("download-btn").addEventListener("click", function () {
+    const link = document.createElement("a");
+    link.href = "img\Hoja de vida Bancolombia.pdf"; // Cambia a la ruta real del PDF
+    link.download = "hojadevidaSaraBastidas.pdf";   // Nombre del archivo descargado
+    link.click();
+});
