@@ -1,149 +1,61 @@
 <div align="center">
-	<h1 align="center">Portafolio Profesional – Sara Bastidas</h1>
-	<p align="center">
-		Proyecto de portafolio personal con frontend en React y backend en Node.js/Express.
-	</p>
+  <h1>Hi, I'm Sara Bastidas</h1>
+  <p>Systems Engineer | Data Analytics | Software Development | Artificial Intelligence</p>
+
+  <p>
+    <a href="https://github.com/SaraBastidas19">GitHub</a> •
+    <a href="https://www.linkedin.com/in/sarabastidasburgos/">LinkedIn</a>
+  </p>
 </div>
 
 ---
 
-## ✨ Descripción
-Este proyecto es un portafolio web moderno para presentar perfil profesional, habilidades, experiencia, formación y proyectos. Fue migrado desde una versión HTML/CSS estática a una arquitectura **React + Node.js** para facilitar mantenimiento, escalabilidad y futuras integraciones.
+## English
 
-Incluye una interfaz con diseño oscuro y acentos morados, animaciones y secciones clásicas de un portafolio.
+### About me
+I am a Systems Engineer focused on Data Analytics, Software Development, and Artificial Intelligence.  
+I enjoy building solutions that turn data into insights and technology into real, functional products.
 
----
+### Skills
+**Data Analytics:** SQL, Power BI, Excel, Python  
+**Software Development:** HTML, CSS, JavaScript, Node.js  
+**Artificial Intelligence:** AI fundamentals, data-driven solutions, automation (in progress)  
+**Tools:** Git, GitHub  
 
-## 🧩 Características principales
-- Navegación fija y responsive.
-- Sección de inicio con foto y enlaces sociales.
-- Sobre mí con intereses y datos personales.
-- Skills con barras animadas al hacer scroll.
-- Curriculum (formación/experiencia) con timeline.
-- Portfolio con galería de proyectos.
-- Contacto con formulario y datos de contacto.
-- Pre-carga de fondos para evitar errores si faltan imágenes.
+### Featured Projects
+**Selene**  
+Menstrual cycle tracking app with responsive UI and JavaScript features.
 
----
+**La Orden del Fénix**  
+Social-focused web project with a donation form, validations, and improved user experience.
 
-## 🛠️ Tecnologías
-**Frontend**
-- React (Create React App)
-- HTML5 + CSS3
-- Font Awesome
-
-**Backend**
-- Node.js
-- Express
-- CORS
-
-**Herramientas**
-- concurrently (para ejecutar frontend y backend en paralelo)
+### Currently
+- Strengthening my skills in SQL, Power BI, Python, and AI fundamentals  
+- Organizing projects to build a stronger portfolio  
+- Looking for opportunities in Data Analytics / BI / Software Development / AI  
 
 ---
 
-## 📁 Estructura del proyecto
-```
-SaraBastidas19/
-├─ client/               # React (frontend)
-│  ├─ public/
-│  │  ├─ img/             # Imágenes del portafolio
-│  │  └─ index.html
-│  └─ src/
-│     ├─ App.js
-│     ├─ App.css
-│     └─ index.js
-├─ server/               # Node/Express (backend)
-│  └─ index.js
-├─ package.json          # Scripts raíz
-└─ README.md
-```
+## Español
 
----
+### Sobre mí
+Soy Ingeniera de Sistemas con enfoque en Analítica de Datos, Desarrollo de Software e Inteligencia Artificial.  
+Me gusta crear soluciones que conviertan datos en información útil y tecnología en productos funcionales.
 
-## 🚀 Cómo ejecutar el proyecto
+### Habilidades
+**Analítica de Datos:** SQL, Power BI, Excel, Python  
+**Desarrollo de Software:** HTML, CSS, JavaScript, Node.js  
+**Inteligencia Artificial:** fundamentos de IA, soluciones basadas en datos, automatización (en progreso)  
+**Herramientas:** Git, GitHub  
 
-### 1) Instalar dependencias
-Desde la raíz del proyecto:
-```
-npm run install:all
-```
+### Proyectos destacados
+**Selene**  
+Aplicación de seguimiento del ciclo menstrual con interfaz responsive y funcionalidades en JavaScript.
 
-### 2) Ejecutar en modo desarrollo
-```
-npm run dev
-```
+**La Orden del Fénix**  
+Proyecto web con enfoque social, incluye formulario de donaciones con validaciones y mejoras de experiencia de usuario.
 
-Esto levanta:
-- **Frontend** en http://localhost:3000
-- **Backend** en http://localhost:3001
-
----
-
-## 📜 Scripts disponibles
-En la raíz del proyecto:
-- `npm run dev` → Ejecuta frontend y backend juntos
-- `npm run install:all` → Instala dependencias en client y server
-
-En client:
-- `npm start` → React dev server
-- `npm run build` → Build de producción
-
-En server:
-- `npm run dev` → Inicia Express con nodemon
-
----
-
-## 🖼️ Imágenes requeridas
-Colocar en `client/public/img/`:
-- `hero.png` (imagen principal)
-- `fondo.jpg` (fondo del hero)
-- `contact_bg.png` (fondo del contacto)
-- `p1.jpg` a `p6.jpg` (galería del portfolio)
-
-Las imágenes se ajustan automáticamente al tamaño del contenedor (máx 340px en portfolio), pero se recomienda usar imágenes de **340px de ancho o más** para evitar pixelación.
-
----
-
-## 🎨 Paleta de colores
-- Negro: `#000000`
-- Morado principal: `#9904D9`
-- Morado medio: `#56048C`
-- Morado oscuro: `#140126`
-- Blanco: `#FFFFFF`
-
----
-
-## 🔌 API (backend)
-El backend incluye un endpoint de salud:
-- `GET /api/health` → `{ status: "ok" }`
-
-Esto sirve como base para integrar formularios de contacto o envío de correos en el futuro.
-
----
-
-## ✅ Estado actual
-- Migración HTML → React completada
-- Estilos aplicados con tema oscuro
-- Curriculum y Portfolio actualizados
-- Rama principal actualizada con cambios de diseño
-
----
-
-## 🧭 Próximos pasos (roadmap)
-- Conectar formulario de contacto al backend
-- Agregar proyectos reales y links en portfolio
-- Mejorar animaciones y accesibilidad
-- Publicación en hosting (Netlify / Vercel)
-
----
-
-## 👩‍💻 Autor
-**Sara Bastidas**
-- Portafolio profesional y proyectos académicos
-- Intereses: IA, desarrollo web, diseño
-
----
-
-## 📝 Licencia
-Este proyecto es de uso personal y educativo.
+### Actualmente
+- Fortaleciendo mis habilidades en SQL, Power BI, Python y fundamentos de IA  
+- Organizando proyectos para mejorar mi portafolio  
+- Buscando oportunidades en Analítica de Datos / BI / Desarrollo de Software / IA  
