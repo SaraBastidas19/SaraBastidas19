@@ -1,61 +1,93 @@
-<div align="center">
-  <h1>Hi, I'm Sara Bastidas</h1>
-  <p>Systems Engineer | Data Analytics | Software Development | Artificial Intelligence</p>
+<div>
+🔴🟡🟢
+<br>
+</div>
 
-  <p>
-    <a href="https://github.com/SaraBastidas19">GitHub</a> •
-    <a href="https://www.linkedin.com/in/sarabastidasburgos/">LinkedIn</a>
-  </p>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=200&section=header&text=Sara%20Bastidas%20Portfolio&fontSize=40&fontColor=ffffff"/>
+
+</div>
+
+<div align="center">
+<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="250"/>
+</div>
+
+<p align="center">
+<i>Debugging life one line of code at a time 🐱‍💻</i>
+</p>
+
+---
+
+# 🧭 About Me
+
+💻 Software developer focused on **web development and AI-assisted programming**.
+
+🚀 I build applications using **React, Node.js and modern development tools**.
+
+🤖 I work with **AI coding assistants like GitHub Copilot, Cursor and AI development workflows**.
+
+🌎 Interested in **international tech opportunities and scalable software systems**.
+
+📚 Currently improving my English and preparing for **TOEFL and global tech roles**.
+
+---
+
+<div align="center">
+
+`Software Developer | AI-assisted coding | Web Applications`
+
+`=========================================`
+
+`¯\_(ツ)_/¯`
+
 </div>
 
 ---
 
-## English
+# 📚 Currently Learning
 
-### About me
-I am a Systems Engineer focused on Data Analytics, Software Development, and Artificial Intelligence.  
-I enjoy building solutions that turn data into insights and technology into real, functional products.
-
-### Skills
-**Data Analytics:** SQL, Power BI, Excel, Python  
-**Software Development:** HTML, CSS, JavaScript, Node.js  
-**Artificial Intelligence:** AI fundamentals, data-driven solutions, automation (in progress)  
-**Tools:** Git, GitHub  
-
-### Featured Projects
-**Selene**  
-Menstrual cycle tracking app with responsive UI and JavaScript features.
-
-**La Orden del Fénix**  
-Social-focused web project with a donation form, validations, and improved user experience.
-
-### Currently
-- Strengthening my skills in SQL, Power BI, Python, and AI fundamentals  
-- Organizing projects to build a stronger portfolio  
-- Looking for opportunities in Data Analytics / BI / Software Development / AI  
+- AI-assisted software development  
+- System design  
+- Clean architecture  
+- Cloud applications  
 
 ---
 
-## Español
+# 🛠️ Tech Stack
 
-### Sobre mí
-Soy Ingeniera de Sistemas con enfoque en Analítica de Datos, Desarrollo de Software e Inteligencia Artificial.  
-Me gusta crear soluciones que conviertan datos en información útil y tecnología en productos funcionales.
+![HTML](https://img.shields.io/badge/-HTML-0D1117?style=flat&logo=HTML5)
+![CSS](https://img.shields.io/badge/-CSS-0D1117?style=flat&logo=CSS3)
+![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=flat&logo=javascript)
+![TypeScript](https://img.shields.io/badge/-TypeScript-0D1117?style=flat&logo=typescript)
+![React](https://img.shields.io/badge/-React-0D1117?style=flat&logo=react)
+![Node.js](https://img.shields.io/badge/-Node.js-0D1117?style=flat&logo=node.js)
+![Python](https://img.shields.io/badge/-Python-0D1117?style=flat&logo=python)
+![Git](https://img.shields.io/badge/-Git-0D1117?style=flat&logo=git)
+![GitHub](https://img.shields.io/badge/-GitHub-0D1117?style=flat&logo=github)
 
-### Habilidades
-**Analítica de Datos:** SQL, Power BI, Excel, Python  
-**Desarrollo de Software:** HTML, CSS, JavaScript, Node.js  
-**Inteligencia Artificial:** fundamentos de IA, soluciones basadas en datos, automatización (en progreso)  
-**Herramientas:** Git, GitHub  
 
-### Proyectos destacados
-**Selene**  
-Aplicación de seguimiento del ciclo menstrual con interfaz responsive y funcionalidades en JavaScript.
+---
 
-**La Orden del Fénix**  
-Proyecto web con enfoque social, incluye formulario de donaciones con validaciones y mejoras de experiencia de usuario.
+# 🚀 Featured Projects
 
-### Actualmente
-- Fortaleciendo mis habilidades en SQL, Power BI, Python y fundamentos de IA  
-- Organizando proyectos para mejorar mi portafolio  
-- Buscando oportunidades en Analítica de Datos / BI / Desarrollo de Software / IA  
+### 🌐 Personal Portfolio Website
+A modern developer portfolio built with **React** showcasing my work, projects, and skills.
+
+### 🤖 AI-Assisted Development Experiments
+Projects created using **GitHub Copilot, Cursor, and AI-assisted coding workflows**.
+
+### 🧠 Full Stack Applications
+Web applications built with **React, Node.js and modern development practices**.
+
+---
+
+# 📫 Contact
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarabastidasburgos/)
+
+[![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github&logoColor=white)](https://github.com/SaraBastidas19)
+
+---
+
+⭐ From **Sara Bastidas**
